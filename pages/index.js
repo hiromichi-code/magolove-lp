@@ -26,6 +26,7 @@ export default function Home() {
           >
             MagoloveのLPはNext.jsで記述します
           </h1>
+          <a href='https://mago-love.com/'>まごラブ</a>
         </div>
       </main>
     </div>
