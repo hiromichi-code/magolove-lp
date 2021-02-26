@@ -8,7 +8,12 @@ export default function Home() {
         <title>MagoloveのLP</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className={css`
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      `}>
         <h1
           className={css`
             color: pink;
