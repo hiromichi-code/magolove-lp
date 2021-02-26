@@ -15,7 +15,7 @@ export default function Home() {
             height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: cenetr;
+            align-items: center;
           `}
         >
           <h1
