@@ -18,6 +18,7 @@ export default function Home() {
         <h1
           className={css`
             color: pink;
+            margin: 0;
           `}
         >
           MagoloveのLPはNext.jsで記述します
