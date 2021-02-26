@@ -8,7 +8,8 @@ export default function Home() {
         <title>MagoloveのLP</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={css`
+      <main>
+      <div className={css`
         width: 100%;
         height: 100%;
         display: flex;
@@ -23,7 +24,7 @@ export default function Home() {
         >
           MagoloveのLPはNext.jsで記述します
         </h1>
-      </main>
-    </div>
+      </div>
+    </main>
   );
 }
