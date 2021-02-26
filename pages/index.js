@@ -9,22 +9,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <div className={css`
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      `}>
-        <h1
+        <div
           className={css`
-            color: pink;
-            margin: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
           `}
         >
-          MagoloveのLPはNext.jsで記述します
-        </h1>
-      </div>
-    </main>
+          <h1
+            className={css`
+              color: pink;
+              margin: 0;
+            `}
+          >
+            MagoloveのLPはNext.jsで記述します
+          </h1>
+        </div>
+      </main>
+    </div>
   );
 }
