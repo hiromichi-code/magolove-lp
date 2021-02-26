@@ -12,7 +12,7 @@ export default function Home() {
         <div
           className={css`
             width: 100%;
-            height: 100vh;
+            height: 1000px;
             display: flex;
             justify-content: center;
             align-items: center;
