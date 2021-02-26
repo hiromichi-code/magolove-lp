@@ -16,6 +16,7 @@ export default function Home() {
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
           `}
         >
           <h1
@@ -26,7 +27,10 @@ export default function Home() {
           >
             MagoloveのLPはNext.jsで記述します
           </h1>
-          <a href='https://mago-love.com/'>まごラブ</a>
+          <a href='https://mago-love.com/' className={css`
+            color: blue;
+            text-decoration: underline;
+          `}>まごラブ</a>
         </div>
       </main>
     </div>
