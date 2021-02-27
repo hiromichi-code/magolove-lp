@@ -59,7 +59,7 @@ export default function Home() {
     >
       <Head>
         <title>まごラブ</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
       </Head>
       <main>
         <div
@@ -67,6 +67,13 @@ export default function Home() {
             ${main}
           `}
         >
+          <img src='logo.png' className={css`
+            margin-bottom: 16px;
+            width: 124px;
+            @media screen and (min-width:1024px) {
+              width: 160px;
+            }
+          `}/>
           <h2 className={`${mixinPink}`}>2021年4月1日</h2>
           <h2 className={`${mixinPink}`}>まごラブから</h2>
           <h1 className={`${mixinMain}`}>ポストカレンダーと</h1>
