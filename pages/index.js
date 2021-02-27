@@ -75,7 +75,7 @@ export default function Home() {
             }
           `}/>
           <h2 className={`${mixinPink}`}>2021年4月1日</h2>
-          <h2 className={`${mixinPink}`}>まごラブから</h2>
+          <h2 className={`${mixinPink}`}>まごラブのモバイルアプリから</h2>
           <h1 className={`${mixinMain}`}>ポストカレンダーと</h1>
           <h1 className={`${mixinMain}`}>ハードカバーの</h1>
           <h1 className={`${mixinMain}`}>フォトブックを</h1>
