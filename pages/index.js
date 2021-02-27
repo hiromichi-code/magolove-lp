@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div
       className={css`
-        heiget: 100vh;
+        height: 100vh;
       `}
     >
       <Head>
