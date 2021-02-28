@@ -3,7 +3,6 @@ import { css } from "lightwindcss";
 
 export default function Home() {
   const mixinPink = css`
-    color: pink;
     margin: 0;
   `;
   const mixinMain = css`
@@ -22,8 +21,8 @@ export default function Home() {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color:rgba(255,255,255,0.7);
-    background-blend-mode:lighten;
+    // background-color:rgba(255,255,255,0.7);
+    // background-blend-mode:lighten;
     h1 {
       font-size: 24px;
     }
@@ -35,10 +34,10 @@ export default function Home() {
       align-items: flex-end;
       padding: 48px 48px 0 0;
       h1 {
-        font-size: 48px;
+        font-size: 40px;
       }
       h2 {
-        font-size: 40px;
+        font-size: 32px;
       }
     }
   `;
