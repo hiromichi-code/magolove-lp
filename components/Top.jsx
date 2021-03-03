@@ -45,8 +45,11 @@ export default function Top(){
         width: 208px;
     }
   `;
+  const container = css`
+    height: 100vh;
+  `;
   return (
-    <div className={css`height: 100vh;`}>
+    <div className={container}>
       <Head>
         <title>Topページ</title>
         <link rel="icon" href="/icon.png" />
