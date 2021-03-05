@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { css } from "lightwindcss";
 
 export default function Top(){
@@ -50,10 +49,6 @@ export default function Top(){
   `;
   return (
     <div className={container}>
-      <Head>
-        <title>Topページ</title>
-        <link rel="icon" href="/icon.png" />
-      </Head>
       <main>
         <div
           className={mainStyle}>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Top from '../components/Top';
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <link rel="icon" href="/icon.png" />
       </Head>
        <Top />
+       <About />
     </div>
   );
 }
