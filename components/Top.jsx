@@ -12,7 +12,7 @@ export default function Top(){
     width: 100%;
     height: 100vh;
     flex-direction: column;
-    background-image: url('main-image.jpg');
+    background-image: url('image/main-image.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -52,7 +52,7 @@ export default function Top(){
       <main>
         <div
           className={mainStyle}>
-          <img src='logo.png' className={imgStyle}/>
+          <img src='image/logo.png' className={imgStyle}/>
           <h2 className={mixinMain}>2021年4月1日</h2>
           <h2 className={mixinMain}>まごラブのモバイルアプリから</h2>
           <h1 className={mixinMain}>ポストカレンダーと</h1>

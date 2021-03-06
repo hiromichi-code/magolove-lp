@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Head>
         <title>まごラブ</title>
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="image/icon.png" />
       </Head>
        <Top />
        <About />
